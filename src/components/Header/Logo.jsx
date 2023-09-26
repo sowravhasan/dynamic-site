@@ -1,9 +1,10 @@
 import React from 'react';
+import images from '../../assets/logo.png';
 
 const Logo = () => {
     return (
         <div>
-            <img src=".../../public/logo.png" alt="" className='max-w-full w-[200px]'/>
+            <img src={images} alt="" className='max-w-full w-[200px]'/>
         </div>
     );
 };
