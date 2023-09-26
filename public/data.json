@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "Picture": "https://i.ibb.co/F5g24tF/Education.png",
+      "Title": "Education Fund",
+      "Category": "Education",
+      "Category_bg": "#FCD0C3",
+      "Card_bg": "#FDE9E3",
+      "Text_button_bg": "#F87146",
+      "Description": "Help provide underprivileged children access to quality education and a brighter future.",
+      "Price": "25"
+    },
+    {
+      "id": 2,
+      "Picture": "https://i.ibb.co/tzBfKr6/Food.png",
+      "Title": "Food for All",
+      "Category": "Food",
+      "Category_bg": "#FFC3C4",
+      "Card_bg": "#FEE2E2",
+      "Text_button_bg": "#FF4449",
+      "Description": "Support our mission to feed the hungry and reduce food insecurity in our community.",
+      "Price": "10"
+    },
+    {
+      "id": 3,
+      "Picture": "https://i.ibb.co/BK1fzFv/Health.png",
+      "Title": "Clean Water Initiative",
+      "Category": "Health",
+      "Category_bg": "#ADC7FF",
+      "Card_bg": "#D9E5FF",
+      "Text_button_bg": "#3C7AFF",
+      "Description": "Provide access to clean and safe drinking water to communities in need.",
+      "Price": "15"
+    },
+    {
+      "id": 4,
+      "Picture": "https://i.ibb.co/yYgtRD9/Clothing.png",
+      "Title": "Housing for the Homeless",
+      "Category": "Clothing",
+      "Category_bg": "#D4EAC1",
+      "Card_bg": "#EBF5E2",
+      "Text_button_bg": "#609A32",
+      "Description": "Support programs to provide shelter and housing solutions for homeless individuals and families.",
+      "Price": "40"
+    },
+    {
+      "id": 5,
+      "Picture": "https://i.ibb.co/BK1fzFv/Health.png",
+      "Title": "Healthcare for All",
+      "Category": "Health",
+      "Category_bg": "#ADC7FF",
+      "Card_bg": "#D9E5FF",
+      "Text_button_bg": "#3C7AFF",
+      "Description": "Ensure everyone has access to basic healthcare services and medical treatment.",
+      "Price": "20"
+    },
+    {
+      "id": 6,
+      "Picture": "https://i.ibb.co/yYgtRD9/Clothing.png",
+      "Title": "Animal Welfare",
+      "Category": "Clothing",
+      "Category_bg": "#D4EAC1",
+      "Card_bg": "#EBF5E2",
+      "Text_button_bg": "#609A32",
+      "Description": "Help rescue and care for animals in distress, and promote animal rights.",
+      "Price": "12"
+    },
+    {
+      "id": 7,
+      "Picture": "https://i.ibb.co/tzBfKr6/Food.png",
+      "Title": "Emergency Relief",
+      "Category": "Food",
+      "Category_bg": "#FFC3C4",
+      "Card_bg": "#FEE2E2",
+      "Text_button_bg": "#FF4449",
+      "Description": "Provide rapid assistance to those affected by natural disasters and humanitarian crises.",
+      "Price": "50"
+    },
+    {
+      "id": 8,
+      "Picture": "https://i.ibb.co/F5g24tF/Education.png",
+      "Title": "Environmental Conservation",
+      "Category": "Education",
+      "Category_bg": "#FCD0C3",
+      "Card_bg": "#FDE9E3",
+      "Text_button_bg": "#F87146",
+      "Description": "Support efforts to protect our environment, conserve natural resources, and combat climate change.",
+      "Price": "30"
+    },
+    {
+      "id": 9,
+      "Picture": "https://i.ibb.co/F5g24tF/Education.png",
+      "Title": "Youth Empowerment",
+      "Category": "Education",
+      "Category_bg": "#FCD0C3",
+      "Card_bg": "#FDE9E3",
+      "Text_button_bg": "#F87146",
+      "Description": "Empower young people with education and skills to build a brighter future.",
+      "Price": "18"
+    },
+    {
+      "id": 10,
+      "Picture": "https://i.ibb.co/BK1fzFv/Health.png",
+      "Title": "Cancer Research",
+      "Category": "Health",
+      "Category_bg": "#ADC7FF",
+      "Card_bg": "#D9E5FF",
+      "Text_button_bg": "#3C7AFF",
+      "Description": "Contribute to research and treatment for cancer patients and finding a cure.",
+      "Price": "25"
+    },
+    {
+      "id": 11,
+      "Picture": "https://i.ibb.co/yYgtRD9/Clothing.png",
+      "Title": "Art and Culture Preservation",
+      "Category": "Clothing",
+      "Category_bg": "#D4EAC1",
+      "Card_bg": "#EBF5E2",
+      "Text_button_bg": "#609A32",
+      "Description": "Preserve and promote our cultural heritage and artistic traditions.",
+      "Price": "15"
+    },
+    {
+      "id": 12,
+      "Picture": "https://i.ibb.co/tzBfKr6/Food.png",
+      "Title": "Food for All",
+      "Category": "Food",
+      "Category_bg": "#FFC3C4",
+      "Card_bg": "#FEE2E2",
+      "Text_button_bg": "#FF4449",
+      "Description": "Support our mission to feed the hungry and reduce food insecurity in our community.",
+      "Price": "10"
+    }
+  ]
+  
