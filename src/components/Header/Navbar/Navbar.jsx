@@ -1,16 +1,18 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Logo from '../Logo';
 
 const Navbar = () => {
     return (
       <div>
-        <nav>
-          <ul>
+        <nav className='flex justify-between items-center py-[40px]'>
+          <Logo></Logo>
+          <ul className='flex gap-6 text-xl'>
             <li>
               <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "text-red-600 underline" : ""
+                  isPending ? "pending" : isActive ? "text-[#FF444A] font-medium underline" : ""
                 }
               >
                 Home
@@ -21,7 +23,7 @@ const Navbar = () => {
               <NavLink
                 to="/donation"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "text-red-600 underline" : ""
+                  isPending ? "pending" : isActive ? "text-[#FF444A] font-medium underline" : ""
                 }
               >
                 Donation
@@ -32,7 +34,7 @@ const Navbar = () => {
               <NavLink
                 to="/statistics"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "text-red-600 underline" : ""
+                  isPending ? "pending" : isActive ? "text-[#FF444A] font-medium underline" : ""
                 }
               >
                 Statistics
