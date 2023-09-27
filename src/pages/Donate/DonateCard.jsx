@@ -1,4 +1,5 @@
 import React from 'react';
+import swal from 'sweetalert';
 
 const DonateCard = ({ donate }) => {
   const {
@@ -12,6 +13,28 @@ const DonateCard = ({ donate }) => {
     Price,
     Text_button_bg,
   } = donate || {};
+
+  const handleAddToDonates = () =>{
+    const addedDonatesArray = [];
+    const donateItems = JSON.parse(localStorage.getItem('donates'))
+    if (!donateItems){
+         addedDonatesArray.push(donate)
+         localStorage.setItem('donates', JSON.stringify(addedDonatesArray))
+         swal("Good job!", "Product Added Successfully!", "success");
+    }
+    else{
+         
+        const isExits = donateItems.find(donate => donate.id == id)
+        if (!isExits){
+            addedDonatesArray.push(...donateItems, donate)
+            localStorage.setItem('donates', JSON.stringify(addedDonatesArray))
+            swal("Good job!", "Product Added Successfully!", "success");
+        }
+        else{
+            swal("Warning!", "No Duplicate!", "error");
+        }
+    }
+  }
   return (
     <div className="my-[100px] w-[1280px] m-auto">
       <div className="">
@@ -22,7 +45,7 @@ const DonateCard = ({ donate }) => {
             className="w-full h-full md:h-auto lg:h-[500px] relative z-1 rounded-[20px]"
           />
           <div className="bg-black bg-opacity-50 -mt-32 z-0 flex items-center w-full h-[128px] rounded-bl-[20px] rounded-br-[20px]">
-            <button
+            <button onClick={handleAddToDonates}
               style={{ backgroundColor: Category_bg, color: Text_button_bg }}
               className="mt-2 ml-6 py-4 px-8 rounded-[5px] text-white font-semibold xl:text-[20px] md:text-base"
             >
