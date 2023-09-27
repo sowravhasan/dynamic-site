@@ -4,10 +4,10 @@ const DonationCard = ({donate}) => {
     const {id, Card_bg, Picture, Category_bg, Category, Title, Description, Price, Text_button_bg} = donate || {}
     return (
         <div className="courses-content">
-  <div className="rounded-tl-[10px] rounded-bl-[10px] rounded-br-[10px] rounded-tr-[10px] overflow-hidden shadow-lg" style={{ backgroundColor: Card_bg }}>
-    <div className="flex">
+  <div className="rounded-tl-[10px] rounded-bl-[10px] rounded-br-[10px] rounded-tr-[10px] overflow-hidden shadow-lg w-[300px] xl:w-full" style={{ backgroundColor: Card_bg }}>
+    <div className="xl:flex px-4 xl:px-0">
       <div className="relative">
-        <img src={Picture} alt="" className="max-w-full w-[250px] xl:h-[200px]" />
+        <img src={Picture} alt="" className="max-w-full xl:w-[250px] xl:h-[200px]" />
       </div>
       <div className="pl-4 flex-1 pt-6 pr-4">
         <button className="text-[14px] px-3 py-1 rounded text-white font-semibold mb-2" style={{ backgroundColor: Category_bg, color: Text_button_bg }}>

@@ -7,7 +7,7 @@ const DonatesCard = ({donate}) => {
         <div className="courses-content">
           <Link to={`/donates/${id}`}>
             <div
-              className="rounded-lg overflow-hidden shadow-lg"
+              className="rounded-lg overflow-hidden shadow-lg "
               style={{ backgroundColor: Card_bg }}
             >
               <div className="mb-[20px] relative">
