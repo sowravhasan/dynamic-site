@@ -4,9 +4,9 @@ import DonatesCard from './DonatesCard';
 const Donates = ({donates}) => {
     return (
       <>
-        <div className ='w-[1280px] mx-auto flex my-[100px]'>
+        <div className ='xl:w-[1280px] mx-auto flex my-[100px]'>
                <div className="w-[100%] mx-auto">
-                  <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mx-auto gap-6"> 
+                  <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mx-auto gap-6 px-4 xl:px-0"> 
                       {
                       donates?.map(donate => <DonatesCard key={donate.id} donate={donate}></DonatesCard>)
                       }              
