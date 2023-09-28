@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { PieChart, Pie, Cell } from "recharts";
 
-const MyPieChart = ({ donationLength }) => {
+const MyPieChart = ({donationLength}) => {
+  // if (donationLength === 0){
+  //     return
+  // }
   // Calculate percentages
   const donatedPercentage = (donationLength / 12) * 100;
   const remainingPercentage = 100 - donatedPercentage;
@@ -11,7 +14,7 @@ const MyPieChart = ({ donationLength }) => {
     { name: "Remaining", value: remainingPercentage }
   ];
 
-  const COLORS = ["#E33D41", "#00BB98"];
+  const COLORS = ["#00BB98", "#E33D41"];
 
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
