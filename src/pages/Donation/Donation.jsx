@@ -55,7 +55,6 @@ const Donation = () => {
           
         )}
       </div>
-      <MyPieChart donationLength={donation.length}></MyPieChart>
     </div>
   );
 };
