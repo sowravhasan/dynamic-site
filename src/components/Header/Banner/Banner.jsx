@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return (
       <div>
-        <div className="relative h-[600px] mt-[-100px] z-[-50]">
+        <div className="relative h-[600px] mt-[-100px] ">
           {/* Background Image */}
           <div className="absolute inset-0 z-[-10]">
             <div
@@ -19,7 +19,7 @@ const Banner = () => {
             <h1 className="text-black text-2xl xl:text-5xl font-bold mb-6 px-4 xl:px-0">I Grow By Helping People In Need</h1>
 
             {/* Search Input Field and Button */}
-            <div className="relative xl:w-[500px] flex mt-3 px-4 xl:px-0">
+            <div className="relative xl:w-[500px] flex mt-3 px-4 xl:px-0 z-[100]">
               <input
                 type="text"
                 placeholder="Search Here..."

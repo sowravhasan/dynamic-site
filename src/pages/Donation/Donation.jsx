@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import DonationCard from './DonationCard';
+import MyPieChart from '../../components/PieChart/PieChart';
 
 const Donation = () => {
   const [donation, setDonation] = useState([]);
@@ -51,8 +52,10 @@ const Donation = () => {
           >
             See More
           </button>
+          
         )}
       </div>
+      <MyPieChart donationLength={donation.length}></MyPieChart>
     </div>
   );
 };
