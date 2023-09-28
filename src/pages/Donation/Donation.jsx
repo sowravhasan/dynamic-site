@@ -18,7 +18,7 @@ const Donation = () => {
     <div>
       <div>
         {noFound ? (
-          <p className="xl:w-[1280px] m-auto xl:h-screen xl:flex justify-center items-center text-6xl">
+          <p className="xl:w-[1280px] m-auto h-screen flex justify-center items-center xl:text-6xl">
             {noFound}
           </p>
         ) : (
