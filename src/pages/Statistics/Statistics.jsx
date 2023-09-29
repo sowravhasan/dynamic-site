@@ -7,7 +7,6 @@ const Statistics = () => {
         const stateDonates = JSON.parse(localStorage.getItem('donates'))
         setMyState(stateDonates);
     },[])
-    console.log(myState);
     return (
         <div>
             <MyPieChart donationLength = {myState ? myState.length : 0}></MyPieChart>

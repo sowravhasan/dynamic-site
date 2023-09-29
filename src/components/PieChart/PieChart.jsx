@@ -2,10 +2,7 @@ import React, { useState, useEffect } from "react";
 import { PieChart, Pie, Cell } from "recharts";
 
 const MyPieChart = ({donationLength}) => {
-  // if (donationLength === 0){
-  //     return
-  // }
-  // Calculate percentages
+
   const donatedPercentage = (donationLength / 12) * 100;
   const remainingPercentage = 100 - donatedPercentage;
 
